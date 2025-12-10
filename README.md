@@ -33,12 +33,12 @@
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow statsmodels
 python main.py
-
+'''
 ## ファイル構成
 * `main.py`: 統合スクリプト
 * `ett.csv`: 使用したデータセット (ETDataset)
 * `README.md`: 本ドキュメント
 
-## 📚 参考文献
+## 参考文献
 * Dataset: [ETDataset (GitHub)](https://github.com/zhouhaoyi/ETDataset)
 * Reference: H. Zhou et al., "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting", AAAI 2021.
