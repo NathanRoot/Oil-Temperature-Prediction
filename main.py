@@ -263,5 +263,6 @@ plt.title('Final Prediction Result on Test Data', fontsize=16)
 plt.ylabel('Oil Temperature (OT)')
 plt.legend()
 plt.tight_layout()
-
+plt.savefig('final_result_best_model.png')
 plt.show()
+
