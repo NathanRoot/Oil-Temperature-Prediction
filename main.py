@@ -34,7 +34,7 @@ plt.rcParams['font.family'] = 'sans-serif'
 print("[Process] データの読み込みを開始します...")
 
 try:
-    df = pd.read_csv("drive/MyDrive/athena/oil_project/ett.csv", parse_dates=['date'], index_col='date')
+    df = pd.read_csv("ett.csv", parse_dates=['date'], index_col='date')
 except FileNotFoundError:
     print("Error: 指定されたファイル 'ett.csv' が見つかりません。")
     raise
@@ -263,4 +263,5 @@ plt.title('Final Prediction Result on Test Data', fontsize=16)
 plt.ylabel('Oil Temperature (OT)')
 plt.legend()
 plt.tight_layout()
+
 plt.show()
