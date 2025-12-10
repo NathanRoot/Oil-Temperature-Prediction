@@ -33,7 +33,7 @@
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow statsmodels
 python main.py
-'''
+```
 ## ファイル構成
 * `main.py`: 統合スクリプト
 * `ett.csv`: 使用したデータセット (ETDataset)
