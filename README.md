@@ -5,7 +5,7 @@
 ## プロジェクト概要
 電力トランスフォーマの故障予兆検知を目的とし、ETDatasetを用いたオイル温度（OT）の時系列予測モデルを構築しました。モデルに二層のLSTMを使用しました。**差分予測**を導入し、予測精度の改善を行いました。
 
-## 🛠️ 技術スタック
+##  技術スタック
 * **Language:** Python 3.x
 * **Modeling:** TensorFlow / Keras (LSTM)
 * **Analysis:** Pandas, Matplotlib, Seaborn, Statsmodels
